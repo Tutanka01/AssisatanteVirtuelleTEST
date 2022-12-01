@@ -2,7 +2,7 @@ from calendar import c
 from turtle import st
 import requests
 from pprint import pprint
-url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=8448b26b78bb45d8e277c0008116c035&units=metric'.format("Montauban")
+url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=secret_monreuf&units=metric'.format("ville !")
 res = requests.get(url)
 data = res.json()
 
