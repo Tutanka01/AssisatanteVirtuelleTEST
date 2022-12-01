@@ -2,9 +2,9 @@ import spotipy
 import json
 import webbrowser
 
-username = 'elmejor-95-95'
-clientID = 'ad8a04c76b2f429b9da4cc2a7a3d3f95'
-clientSecret = 'ecc4c22c36294ff3b90a116da19d920b'
+username = 'secret'
+clientID = 'secret'
+clientSecret = 'secret'
 redirectURI = 'http://google.fr/'
 
 oauth_object = spotipy.SpotifyOAuth(clientID,clientSecret,redirectURI)
